@@ -13,7 +13,11 @@ class Song
       else 
         @artist_name
       end
-    end 
+    end
+    
+    def all
+      @@all = []
+    end
     
     def self.all
       @@all
