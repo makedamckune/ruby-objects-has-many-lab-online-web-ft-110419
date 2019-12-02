@@ -17,10 +17,8 @@ class Song
     
     def self.all
       @@all
+      self << @@all = []
     end
     
-    def self.all
-      self << @@all = []
-    end 
     
   end 
