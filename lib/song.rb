@@ -23,6 +23,7 @@ class Song
       @@song 
       self<<@@all = []
     end
+  end 
     
     
   end 
