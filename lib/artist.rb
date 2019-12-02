@@ -26,12 +26,14 @@ class Artist
    def self.song_count
      @@song_count
    end 
-   
-
-   end 
  end 
  #want to call Adele and Beyonce
  #adele.songs and beyonce.songs
+ adele = Artist.new("Adele")
+ hello = Song.new("Hello")
+ adele = hello 
+ adele.Songs 
+ 
  
  
  
