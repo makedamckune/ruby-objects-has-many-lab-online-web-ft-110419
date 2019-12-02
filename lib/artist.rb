@@ -26,6 +26,8 @@ class Artist
    def self.song_count
      @@song_count
    end 
+   
+   
  end 
  #want to call Adele and Beyonce
  #adele.songs and beyonce.songs
