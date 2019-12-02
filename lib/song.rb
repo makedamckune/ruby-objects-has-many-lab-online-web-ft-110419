@@ -20,7 +20,7 @@ class Song
     end
     
     def self.all
-      @@all
+      @@song 
       self<<@@all = []
     end
     
